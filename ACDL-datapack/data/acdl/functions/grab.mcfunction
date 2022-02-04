@@ -2,7 +2,7 @@
 execute in acdl:storage run forceload add ~ ~
 
 ## grabs the data
-execute in acdl:storage run data modify storage acdl:storage root.temp.compare.storage[] set from block ~ ~ ~ RecordItem.tag.acdl.dimensions
+execute in acdl:storage run data modify storage acdl:storage root.temp.compare.storage set from block ~ ~ ~ RecordItem.tag.acdl.dimensions
 
 ## if no dimension parameter is set it grabs the current one
 execute unless data storage acdl:storage root.temp.store.dimension positioned ~ -200 ~ run function acdl:dimension

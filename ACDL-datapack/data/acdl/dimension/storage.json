@@ -1,0 +1,79 @@
+{
+    "type": {
+      "ultrawarm": false,
+      "natural": false,
+      "piglin_safe": false,
+      "respawn_anchor_works": false,
+      "bed_works": false,
+      "has_raids": false,
+      "has_skylight": false,
+      "has_ceiling": false,
+      "coordinate_scale": 1,
+      "ambient_light": 0,
+      "logical_height": 256,
+      "infiniburn": "minecraft:infiniburn_overworld",
+      "min_y": -64,
+      "height": 384
+    },
+    "generator": {
+      "type": "minecraft:noise",
+      "seed": -427755976,
+      "settings": {
+        "sea_level": 0,
+        "disable_mob_generation": true,
+        "noise_caves_enabled": false,
+        "noodle_caves_enabled": false,
+        "aquifers_enabled": false,
+        "ore_veins_enabled": false,
+        "legacy_random_source": false,
+        "default_block": {
+          "Name": "minecraft:bedrock"
+        },
+        "default_fluid": {
+          "Name": "minecraft:water",
+          "Properties": {
+            "level": "0"
+          }
+        },
+        "noise": {
+          "min_y": -64,
+          "height": 384,
+          "size_horizontal": 1,
+          "size_vertical": 2,
+          "sampling": {
+            "xz_scale": 0.9999999814507745,
+            "y_scale": 0.9999999814507745,
+            "xz_factor": 80,
+            "y_factor": 160
+          },
+          "bottom_slide": {
+            "target": 1,
+            "size": 3,
+            "offset": 1000
+          },
+          "top_slide": {
+            "target": -1,
+            "size": 2,
+            "offset": 8
+          },
+          "terrain_shaper": {
+            "offset": 0,
+            "factor": 0,
+            "jaggedness": 0
+          }
+        },
+        "surface_rule": {
+          "type": "minecraft:sequence",
+          "sequence": []
+        },
+        "structures": {
+          "structures": {}
+        }
+      },
+      "biome_source": {
+        "type": "minecraft:fixed",
+        "biome": "acdl:empty"
+      }
+    }
+  }
+  

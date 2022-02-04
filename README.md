@@ -17,7 +17,7 @@ this just clears the cache
 
 the dimension and reset parameters are optional, leaving the dimension blank will automatically grab the dimension the function is fired in and assign it a new element in the array or merge it with prexisting data for that dimension (although this applies regardless)
 
-reset will always reset the current data at that coordinate, no matter what it is set to. don't enter this parameter unless you want to reset the data
+do not include the reset parameter unless you want to delete all the data across dimensions at that coordinate
 
 then after setting the data in storage run function
 

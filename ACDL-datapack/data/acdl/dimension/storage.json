@@ -12,8 +12,8 @@
       "ambient_light": 0,
       "logical_height": 256,
       "infiniburn": "minecraft:infiniburn_overworld",
-      "min_y": -64,
-      "height": 384
+      "min_y": -2032,
+      "height": 2032
     },
     "generator": {
       "type": "minecraft:noise",
@@ -36,8 +36,8 @@
           }
         },
         "noise": {
-          "min_y": -64,
-          "height": 384,
+          "min_y": -2032,
+          "height": 2032,
           "size_horizontal": 1,
           "size_vertical": 2,
           "sampling": {
@@ -52,9 +52,9 @@
             "offset": 1000
           },
           "top_slide": {
-            "target": -1,
-            "size": 2,
-            "offset": 8
+            "target": 1,
+            "size": 3,
+            "offset": -1000
           },
           "terrain_shaper": {
             "offset": 0,

@@ -1,4 +1,4 @@
-## counts up the index till it arrives on the correct element in the array (one that matches the dimension id)
+## counts down the index till it arrives on the correct element in the array (one that matches the dimension id)
 scoreboard players add $element_index acdl.temp 1
 
 ## gets the first element of the array
